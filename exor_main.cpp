@@ -7,6 +7,8 @@
 int sc_main(int, char**)
 {
     sc_signal<bool> sigA, sigB, sigZ;
+    
+    sc_clock clock("Clk", 10, SC_NS, 0.5);
 
     sc_trace_file *wf = sc_create_vcd_trace_file("trace");
     sc_trace(wf, sigA, "A");
@@ -16,6 +18,7 @@ int sc_main(int, char**)
     stim Stim1("Stimulus");
     Stim1.A(sigA);
     Stim1.B(sigB);
+    Stim1.Clk(clock);
 
     exor DUT("exor");
     DUT.A(sigA);
@@ -26,6 +29,7 @@ int sc_main(int, char**)
     mon.A(sigA);
     mon.B(sigB);
     mon.Z(sigZ);
+    mon.Clk(clock);
 
     sc_start();  // run forever
     sc_close_vcd_trace_file(wf);

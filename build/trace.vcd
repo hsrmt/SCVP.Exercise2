@@ -1,5 +1,5 @@
 $date
-     Mar 18, 2024       09:58:32
+     Mar 18, 2024       10:17:36
 $end
 
 $version
@@ -27,20 +27,20 @@ $dumpvars
 0aaaac
 $end
 
-#10000
+#5000
 1aaaab
 1aaaac
 
-#25000
+#10000
 1aaaaa
 0aaaab
 
-#35000
+#15000
 1aaaab
 0aaaac
 
-#45000
+#20000
 0aaaaa
 0aaaab
 
-#55000
+#25000
