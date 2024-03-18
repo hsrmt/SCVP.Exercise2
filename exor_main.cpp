@@ -8,6 +8,11 @@ int sc_main(int, char**)
 {
     sc_signal<bool> sigA, sigB, sigZ;
 
+    sc_trace_file *wf = sc_create_vcd_trace_file("trace");
+    sc_trace(wf, sigA, "A");
+    sc_trace(wf, sigB, "B");
+    sc_trace(wf, sigZ, "Z");
+
     stim Stim1("Stimulus");
     Stim1.A(sigA);
     Stim1.B(sigB);
@@ -23,6 +28,6 @@ int sc_main(int, char**)
     mon.Z(sigZ);
 
     sc_start();  // run forever
-
+    sc_close_vcd_trace_file(wf);
     return 0;
 }
