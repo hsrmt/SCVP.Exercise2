@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hatjce/Documents/Classes/SystemC/SCVP_Exercises/SCVP.Exercise2/nand_main.cpp" "CMakeFiles/exercise2.dir/nand_main.cpp.o" "gcc" "CMakeFiles/exercise2.dir/nand_main.cpp.o.d"
+  "/home/hatjce/Documents/Classes/SystemC/SCVP_Exercises/SCVP.Exercise2/exor_main.cpp" "CMakeFiles/exercise2.dir/exor_main.cpp.o" "gcc" "CMakeFiles/exercise2.dir/exor_main.cpp.o.d"
   )
 
 # Targets to which this target links.

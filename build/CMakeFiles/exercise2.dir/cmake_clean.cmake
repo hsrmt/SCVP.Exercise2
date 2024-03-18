@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exercise2.dir/nand_main.cpp.o"
-  "CMakeFiles/exercise2.dir/nand_main.cpp.o.d"
+  "CMakeFiles/exercise2.dir/exor_main.cpp.o"
+  "CMakeFiles/exercise2.dir/exor_main.cpp.o.d"
   "exercise2"
   "exercise2.pdb"
 )

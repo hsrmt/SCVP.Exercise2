@@ -129,29 +129,29 @@ exercise2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
 .PHONY : exercise2/fast
 
-nand_main.o: nand_main.cpp.o
-.PHONY : nand_main.o
+exor_main.o: exor_main.cpp.o
+.PHONY : exor_main.o
 
 # target to build an object file
-nand_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/nand_main.cpp.o
-.PHONY : nand_main.cpp.o
+exor_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/exor_main.cpp.o
+.PHONY : exor_main.cpp.o
 
-nand_main.i: nand_main.cpp.i
-.PHONY : nand_main.i
+exor_main.i: exor_main.cpp.i
+.PHONY : exor_main.i
 
 # target to preprocess a source file
-nand_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/nand_main.cpp.i
-.PHONY : nand_main.cpp.i
+exor_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/exor_main.cpp.i
+.PHONY : exor_main.cpp.i
 
-nand_main.s: nand_main.cpp.s
-.PHONY : nand_main.s
+exor_main.s: exor_main.cpp.s
+.PHONY : exor_main.s
 
 # target to generate assembly for a file
-nand_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/nand_main.cpp.s
-.PHONY : nand_main.cpp.s
+exor_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/exor_main.cpp.s
+.PHONY : exor_main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... exercise2"
-	@echo "... nand_main.o"
-	@echo "... nand_main.i"
-	@echo "... nand_main.s"
+	@echo "... exor_main.o"
+	@echo "... exor_main.i"
+	@echo "... exor_main.s"
 .PHONY : help
 
 
